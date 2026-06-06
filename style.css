@@ -504,6 +504,10 @@ video {
     animation: slide-in-left 1s ease-out 0.2s both;
 }
 
+.about-text h3 {
+    margin-bottom: 1rem;
+}
+
 @keyframes slide-in-left {
     from {
         opacity: 0;
@@ -519,6 +523,7 @@ video {
     color: var(--text-secondary);
     font-size: 1.1rem;
     line-height: 1.8;
+    margin-top: 0.8rem;
     margin-bottom: 2rem;
 }
 
